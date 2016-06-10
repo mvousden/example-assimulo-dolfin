@@ -17,3 +17,5 @@ conda install boost=1.57
 conda install vtk=5.10
 conda install mkl-rt
 pip install git+https://github.com/fangohr/dolfinh5tools
+
+You might need to instant-clean.
