@@ -7,9 +7,13 @@ Assimulo version 2.8 instead.
 
 To create conda environment, the following commands are required:
 
-conda create --name assimulo -c ufechner assimulo
+conda create --name assimulo --channel ufechner assimulo
 source activate assimulo
-conda install -c chria assimulo=2.8
+conda install --channel chria assimulo=2.8
 conda install jupyter
-conda install --yes libgfortran=1
+conda install libgfortran=1
+conda install fenics --channel juanlu001
+conda install boost=1.57
+conda install vtk=5.10
+conda install mkl-rt
 pip install git+https://github.com/fangohr/dolfinh5tools
